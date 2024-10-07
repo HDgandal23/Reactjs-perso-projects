@@ -1,0 +1,37 @@
+.nav-container {
+
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+
+.links {
+
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.link-element {
+
+    padding: 0 5px;
+    
+}
+
+.link-element Link {
+
+    color: black;
+    text-decoration: none;
+
+}
+.user-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.user-info img {
+    border-radius: 50%;
+}
