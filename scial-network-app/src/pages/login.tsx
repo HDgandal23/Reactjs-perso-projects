@@ -3,6 +3,7 @@ import { signInWithPopup } from "firebase/auth";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+
 export const Login = () => {
 
   const navigate = useNavigate()  
@@ -28,7 +29,7 @@ export const Login = () => {
     <div>
       <p>Login with your Google account to continue!</p>
       <button onClick={signInWithGoogle} disabled={isSigningIn}>
-        {isSigningIn ? "Connexion en cours..." : "Login with Google"}
+       Login with Google
       </button>
       {errorMessage && <p style={{ color: "red" }}>{errorMessage}</p>}
     </div>
